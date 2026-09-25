@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found</title>
+<script>
+  // Old LPU Free Room links (/lpu-free-room/app/, /lpu-free-room/admin/, ...) open the same page on Vercel.
+  (function () {
+    var m = location.pathname.match(/^\/lpu-free-room(\/.*)?$/i);
+    if (m) location.replace("https://lpu-free-room.vercel.app" + (m[1] || "/") + location.search + location.hash);
+  })();
+</script>
+</head>
+<body>
+<p>Page not found.</p>
+</body>
+</html>
